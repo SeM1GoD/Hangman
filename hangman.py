@@ -30,10 +30,10 @@ def check_valid_input(letter_guessed, old_letter_guessed):
     letter_guessed = letter_guessed.lower()
     old_letter_guessed.sort()
     if (not(letter_guessed.isalpha()) or (len(letter_guessed) > 1)):
-        print ("Do You Even Know How This Game Works? You Little Bitch")
+        print ("\n\nDo You Even Know How This Game Works? You Little Bitch\n\n")
         return False
     elif ((letter_guessed in old_letter_guessed)):
-        print("Please Remember The Letters That You Already Tried To Guess And Dont Be Stupid!!!")
+        print("\n\nPlease Remember The Letters That You Already Tried To Guess And Dont Be Stupid!!!\n\n")
         print(" , ".join(old_letter_guessed))
         return False
     else:
