@@ -210,8 +210,10 @@ Please Enter Your Choice: """)
             else:
                 continue
         main(False)
-    else:
+    elseif (start_game == "2"):
         print("\n\nI Wish Someone Gonna Rape You. Dont Come Back You Fuckturd\n\n")
+    else:
+        print("\n\nOMG! Are You Testing My Code? Dont Be Such A Fool. Please. Just Follow The Rules And Have Fun")
 
 
 if __name__ == "__main__":
